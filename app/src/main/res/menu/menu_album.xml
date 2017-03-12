@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/edittitle"
+        android:title="Edit title"></item>
+    <item
+        android:id="@+id/editalbum"
+        android:title="Add image"></item>
+    <item
+        android:id="@+id/delete"
+        android:title="Delete"></item>
+</menu>

@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="#000">
+    <ImageView
+        android:id="@+id/image"
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:layout_gravity="center_horizontal|top"
+        android:scaleType="fitCenter" />
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top"
+
+        android:padding="10dp"
+        android:textColor="#fff"
+        android:textSize="10dp"
+        android:shadowColor="#000"
+        android:shadowRadius="10"/>
+
+
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="bottom">
+        <!--<Button-->
+            <!--android:layout_width="42dp"-->
+            <!--android:layout_height="42dp"-->
+            <!--android:text="+"-->
+            <!--android:id="@+id/zoomin"-->
+            <!--android:layout_marginTop="10dp"-->
+            <!--/>-->
+
+        <ImageView
+            android:id="@+id/zoomin"
+            android:layout_width="42dp"
+            android:layout_height="42dp"
+            android:clickable="true"
+            android:src="@drawable/zoom_in"
+
+
+
+            />
+        <ImageView
+            android:layout_width="42dp"
+            android:layout_height="42dp"
+            android:clickable="true"
+            android:src="@drawable/zoom_out"
+            android:id="@+id/zoomout"
+            android:layout_marginLeft="10dp"
+
+            />
+        <ImageView
+            android:layout_width="41dp"
+            android:layout_height="41dp"
+            android:clickable="true"
+            android:src="@drawable/rotate_left"
+            android:id="@+id/rl"
+            android:layout_marginLeft="10dp"
+
+
+            />
+        <ImageView
+            android:layout_width="41dp"
+            android:layout_height="41dp"
+            android:clickable="true"
+            android:src="@drawable/rotate_right"
+            android:id="@+id/rr"
+            android:layout_marginLeft="7dp"
+
+            />
+        <ImageView
+            android:layout_width="42dp"
+            android:layout_height="42dp"
+            android:clickable="true"
+            android:src="@drawable/delete"
+            android:id="@+id/del"
+            android:layout_marginLeft="10dp"
+
+            />
+        <ImageView
+            android:layout_width="42dp"
+            android:layout_height="42dp"
+            android:clickable="true"
+            android:src="@drawable/info"
+            android:id="@+id/info"
+            android:layout_marginLeft="10dp"
+             />
+        <ImageView
+            android:layout_width="42dp"
+            android:layout_height="42dp"
+            android:clickable="true"
+            android:src="@drawable/reset"
+            android:id="@+id/reset"
+            android:layout_marginLeft="10dp"
+             />
+    </LinearLayout>
+</FrameLayout>
